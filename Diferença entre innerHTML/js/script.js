@@ -12,6 +12,10 @@ container.innerHTML = "<h1> TESTANDO O INNER HTML </h1>";
 // INNERTEXT == APENAS TEXTO 
 
 
+// TEXTO INTERNO DO ELEMENTO 
+
 var container_b = document.querySelector("#container_b");
 
 container_b.innerText = "<h2>testando o innertext </h2>"
+
+/// tag não serão compreendidas , apenas TEXTOS 
